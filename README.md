@@ -38,33 +38,9 @@ https://github.com/user-attachments/assets/8413e640-59e9-490e-861d-49187e967526
 
 ## Installation
 
-1. Clone the repository:
-```bash
-git clone https://github.com/nazdridoy/kokoro-tts.git
-cd kokoro-tts
-```
-
-2. Install required packages:
-```bash
-pip install -r requirements.txt
-```
-or
-```bash
-uv sync
-```
-Note: You can also use `uv` as a faster alternative to pip for package installation. (This is a uv project)
-Note: Python>=3.13 is not currently supported.
-
-3. Download the required model files:
-```bash
-# Download either voices.json or voices.bin (bin is preferred)
-wget https://github.com/nazdridoy/kokoro-tts/releases/download/v1.0.0/voices-v1.0.bin
-
-# Download the model
-wget https://github.com/nazdridoy/kokoro-tts/releases/download/v1.0.0/kokoro-v1.0.onnx
-```
-Note: The script will automatically use voices.bin if present, falling back to voices.json if bin is not available.
-
+1. Clone the repository
+2. git lfs pull
+3. `pixi run kokoro-tts README.md --voice bm_daniel`
 
 ## Supported voices:
 

@@ -14,8 +14,6 @@ book_audio/
 chunks/
 voices.json
 *.npz
-*.bin
-*.onnx
 
 # macOS
 .DS_Store
@@ -26,3 +24,4 @@ voices.json
 *.pdf
 !requirements.txt
 !demo.*
+.pixi/
